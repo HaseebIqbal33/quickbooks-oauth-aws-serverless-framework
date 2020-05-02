@@ -1,0 +1,17 @@
+{
+  "name": "quickbooks-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "getAuthUri": "serverless invoke local --function getAuthorizationCode",
+    "getCompanyInfo": "serverless invoke local --function getCompanyInfo",
+    "createCustomer": "serverless invoke local --function createCustomer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "intuit-oauth": "^2.1.0"
+  }
+}

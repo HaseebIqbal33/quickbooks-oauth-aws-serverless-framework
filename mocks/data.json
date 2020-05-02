@@ -1,0 +1,12 @@
+{
+    "pathParameters": {
+      "code": "KOKA-KOKA-KOKA",
+      "realmId": "some-realm-id",
+      "state": "testState"
+    },
+    "queryStringParameters": {
+        "code": "KOKA-KOKA-KOKA",
+        "realmId": "some-realm-id",
+        "state": "testState"
+      }
+  }
